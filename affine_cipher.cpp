@@ -35,7 +35,7 @@ std::string decrypt(std::string text, int a, int b){
             break;
         }
     } 
-    
+
     for(char c: text){ 
         if (isalpha(c))
         {
