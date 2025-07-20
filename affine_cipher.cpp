@@ -36,7 +36,7 @@ std::string decrypt(std::string text, int a, int b){
         }
     } 
     
-    for(char c: text){
+    for(char c: text){ 
         if (isalpha(c))
         {
             int x = toupper(c) - 'A';
