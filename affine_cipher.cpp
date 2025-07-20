@@ -34,7 +34,7 @@ std::string decrypt(std::string text, int a, int b){
             inverse_a = i;
             break;
         }
-    }
+    } 
     
     for(char c: text){
         if (isalpha(c))
